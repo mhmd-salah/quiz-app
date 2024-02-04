@@ -8,18 +8,63 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="imgs/190314_games_quiz_icon.png" type="image/x-icon">
-  <script src="main.js" defer></script>
-  <title>Quiz app</title>
-</head>
-<body>
 
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/190314_games_quiz_icon.png" type="image/x-icon">
+    <script src="main.js" defer></script>
+    <title>Quiz app</title>
+  </head>
+
+  <body>
+    <div class="quiz_app">
+      <div class="quiz-info">
+        <div class="catogery">Carogery : <span>HTML5</span></div>
+        <div class="count">Questions Count: <span>10</span></div>
+      </div>
+      <div class="quiz-area">
+        <h2>Why We Use &lt;br&gt; Element?</h2>
+      </div>
+      <div class="answers-area">
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_1" checked>
+          <label for="answer_1">To Make Text Bold</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_2">
+          <label for="answer_2">To Make Text italic</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_3">
+          <label for="answer_3">To Add BreakLine</label>
+        </div>
+        <div class="answer">
+          <input type="radio" name="questions" id="answer_4">
+          <label for="answer_4">To Add Horizontal Line</label>
+        </div>
+      </div>
+      <button class="submit-button">Submit Answer</button>
+      <div class="bullets">
+        <div class="spans">
+          <span class="on"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="countdown">
+          <span class="minutes">02</span> : <span class="seconds">45</span>
+        </div>
+      </div>
+      <div class="results">
+        <span class="perfect"> Perfect</span>
+        You Answerd 10 From 10
+
+      </div>
+    </div>
+  </body>
+
 </html>
 
 <!-- 
